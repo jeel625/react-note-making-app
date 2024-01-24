@@ -93,8 +93,12 @@ button:hover {
 .app-main-note-edit,
 .app-main-note-preview {
   height: 50vh;
+  background-color: crimson;
 }
-
+.app-main-note-edit-input
+{
+  background-color: beige;
+}
 .no-active-note {
   width: 70%;
   height: 100vh;
@@ -130,7 +134,9 @@ textarea {
 .app-main-note-preview {
   border-top: 1px solid #ddd;
   overflow-y: scroll;
-  background: rgba(0, 0, 0, 0.02);
+  color: black;
+  text-align: center;
+  background: rgb(237, 226, 228);
 }
 
 .preview-title {

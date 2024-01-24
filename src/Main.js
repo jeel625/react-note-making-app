@@ -15,8 +15,8 @@ function Main( {activeNote, onUpdateNote} )
     return(
         <div className='app-main'>
             <div className='app-main-note-edit'>
-                <input type="text" id='title' value={activeNote && activeNote.title} onChange={(e) => onEditField("title",e.target.value)} autoFocus />
-                <textarea id='body'  value={activeNote && activeNote.body} onChange={(e) => onEditField("body",e.target.value)} placeholder="Write your note here...." />
+                <input className='app-main-note-edit-input' type="text" id='title' value={activeNote && activeNote.title} onChange={(e) => onEditField("title",e.target.value)} autoFocus />
+                <textarea className='app-main-note-edit-input' id='body'  value={activeNote && activeNote.body} onChange={(e) => onEditField("body",e.target.value)} placeholder="Write your note here...." />
             </div>
             <div className='app-main-note-preview'>
                 <h1 className='preview-title'>{ activeNote && activeNote.title } </h1>
