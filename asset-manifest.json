@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jeel625/react-note-making-app.git/static/css/main.b7f2ff17.css",
+    "main.js": "/jeel625/react-note-making-app.git/static/js/main.04c75cb8.js",
+    "index.html": "/jeel625/react-note-making-app.git/index.html",
+    "main.b7f2ff17.css.map": "/jeel625/react-note-making-app.git/static/css/main.b7f2ff17.css.map",
+    "main.04c75cb8.js.map": "/jeel625/react-note-making-app.git/static/js/main.04c75cb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7f2ff17.css",
+    "static/js/main.04c75cb8.js"
+  ]
+}
